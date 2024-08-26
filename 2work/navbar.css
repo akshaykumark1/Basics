@@ -1,0 +1,30 @@
+
+.navbar{
+    background-color: black;
+    color: white;
+    border: 15px;
+    padding: 10px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 100px;
+
+}
+#main{
+    color: orange;
+    font-size: 25px;
+}
+input{
+    padding: 5px;
+    width: 200px;
+    
+}
+button {
+    padding: 5px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+
+}
