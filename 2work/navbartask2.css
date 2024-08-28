@@ -1,0 +1,30 @@
+nav{
+    border: 2px solid black;
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
+nav span {
+    margin: 150px;
+}
+#brand{
+    color: white;
+    font-size: 25px;
+}
+#brand1{
+    color: white;
+    font-size: 25px;
+}
+#brand2{
+    color: white;
+    font-size: 25px;
+}
+input{
+    padding: 4px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+}

@@ -1,0 +1,61 @@
+.navbar{
+    background-color: black;
+    color: white;
+    border: 15px;
+    padding: 10px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 100px;
+
+}
+#main{
+    color: orange;
+    font-size: 25px;
+}
+input{
+    padding: 5px;
+    width: 120px;
+    
+}
+button {
+    padding: 5px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    margin: right;
+    
+
+}
+
+
+body{
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    
+}
+header,footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.one{
+    background-color: green;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    background-color: red;
+}
+.content div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    opacity: 0.5;
+}
+
