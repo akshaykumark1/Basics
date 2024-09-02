@@ -1,0 +1,17 @@
+header{
+    background-color: orange;
+    color: white;
+}
+form{
+    background-color: black;
+    color: yellow;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+}
+footer{
+    background-color: orange;
+    color: white;
+}
