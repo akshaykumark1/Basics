@@ -2,14 +2,21 @@ header{
     background-color: orange;
     color: white;
 }
-form{
+div{
     background-color: black;
     color: yellow;
+    text-align: center;
+    scroll-margin-left: 20px;
 }
 body{
     background-color: black;
     height: 100vh;
     margin: 0;
+}
+button{
+    
+    
+
 }
 footer{
     background-color: orange;
