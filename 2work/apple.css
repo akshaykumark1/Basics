@@ -5,13 +5,18 @@
     font-weight: 600;
     font-style: normal;
 }
+#bag{
+    padding: 30px;
+}
 
 nav {
+    list-style: none;
     padding: 0;
     
     position: fixed;
     
     width: 100%;
+    
     
     color: white;
 }
@@ -21,6 +26,7 @@ section{
 nav span{
     padding: 8px;
     margin: 0px 10px 0px 10px;
+    
 }
 
 nav ul {
@@ -30,20 +36,15 @@ nav ul {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: #252525e0;
+    background-color:rgb(22,22,23,1);
     gap: 50px;
 }
 
 
 
-nav a{
-    font-size: 17px;
-    float: left;
-    display: block;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 14px 16px;
-    text-align: center;
+
+.fullnav{
+    background-color: rgba(22, 22, 23, 1);
 }
 nav span{
 padding: 8px;
@@ -85,21 +86,94 @@ section ul{
 .nav ul span.store:hover .section-1 {
     display: block;
 }
-
-
-
-
-
-
-
-
-img.fit-screen{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin:auto;
-    object-fit: cover;
+*{
+    margin: 0;
+    padding: 0;
+    font-style:normal;
 }
+.list-items-2{
+    top: -125px;
+}
+.list-items-3{
+    top: -160px;
+}
+.list-container{
+    padding-right:  600px;
+}
+nav{
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+section{
+    display: none;
+}
+
+nav span{
+    padding: 8px;
+    margin: 0px 10px 0px 10px;
+}
+
+section .list-container {
+    /* border: 2px solid white; */
+    text-align: center;
+    display: inline-block; 
+    position: relative;
+    left: 20px;
+    margin: 8px;
+}
+
+section ul{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 8px 0px 8px;
+    line-height: 2;
+    padding: 8px;
+    text-align: justify;
+}
+
+.list-items{
+    position:relative;
+    bottom:75px;
+}
+
+.section-1 .big{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.store:hover ~ .section-1 {
+    display:block;
+}
+.mac:hover ~ .section-1{
+    display: block;
+}
+
+
+
+
+
+
+.img1{
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+.img2{
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+/* .img3{
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+} */
+
+
+
 
 
 footer {
