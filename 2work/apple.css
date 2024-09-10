@@ -83,22 +83,18 @@ section ul{
     font-weight: bold;
 
 }
-.nav ul span.store:hover .section-1 {
-    display: block;
-}
-*{
-    margin: 0;
-    padding: 0;
-    font-style:normal;
-}
+    
+
+
+
 .list-items-2{
-    top: -125px;
+    top: -155px;
 }
 .list-items-3{
     top: -160px;
 }
 .list-container{
-    padding-right:  600px;
+    padding-right:  500px;
 }
 nav{
     padding: 15px;
@@ -147,11 +143,16 @@ section ul{
 .store:hover ~ .section-1 {
     display:block;
 }
-.mac:hover ~ .section-1{
+.Mac:hover ~ .section-2 {
+    display:block;
+}
+.ipad:hover ~ .section-1{
     display: block;
 }
-
-
+.iphone:hover ~ .section-1 {
+    display:block
+}
+.
 
 
 
@@ -164,13 +165,13 @@ section ul{
 .img2{
     justify-content: center;
     text-align: center;
-    background-color: white;
+    background-color: rgb(253, 248, 248);
 }
-/* .img3{
+ .img3{
     justify-content: center;
     text-align: center;
     background-color: white;
-} */
+} 
 
 
 
