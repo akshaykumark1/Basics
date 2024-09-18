@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+}
+.card{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 50px;
+
+
+    box-shadow: 5px 5px blue;
+    box-shadow: -5px -5px blue;
+    box-shadow: 5px 5px 8px blue;
+    box-shadow: 5px 5px 8px 8px blue;
+    box-shadow: 5px 5px 8px 8px blue,10px 10px 8px 8px green;
+
+
+
+
+}
+.card h1{
+    text-shadow: 5px 5px yellow;
+    text-shadow: 5px 5px 10px yellow;
+    text-shadow: 5px 5px yellow,5px 5px red;
+
+
+}
